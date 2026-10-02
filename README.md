@@ -55,18 +55,24 @@ Chess-cpp/
 
 ---
 
-## 🗺️ Roadmap & Future Plans
+## 🗺️ Roadmap & Future Plans and possibilities
 * **Refactor #include** ".cpp" include chains into proper .hpp/.cpp header separations.
 
 * **Complete CMake build configuration** across cross-platform compilers.
 
 * **Finish move validation logic** (pin checks, legal check/checkmate detection).
 
+* **store each piece move :** store 64 bitboards for each pieces reducing calculation time.
+
 * **Implement a full Raylib 2D GUI** for visual playability.
 
 * **Develop a custom Chess AI/Bot** (Minimax search with Alpha-Beta pruning).
 
 * **Explore engine migration/port** to C# with Unity/Godot for 2D/3D rendering.
+
+* **Explore a mobile app** option, combining C++ backend logic with Kotlin Jetpack Composer UI Tools.
+
+*  **Completely restructure** the project to use more efficiently CLasses (not losing bitboards advantages).
 
 ---
 
